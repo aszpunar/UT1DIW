@@ -7,13 +7,18 @@
         <title>Ejercicio 2</title>
         <style>
             th,td{
-                border: 1px dotted black;
+                border: 2px dotted black;
+                background-color: salmon;
             }
             table{
                 padding:0.5em;
-                border: 1px dashed aquamarine;
+                border: 2px dashed aquamarine;
+               
             }
-            
+            caption{
+                border: 2px dotted salmon;
+                background-color: aquamarine;
+            }
         </style>
     </head>
     <body>
@@ -29,6 +34,7 @@
         Aqui sigue el parrafo</p>
     
         <table>
+            <caption>Datos sobre la serie Mindhunter</caption>
             <thead>
                 <tr>
                     <th>Nombre:</th>
@@ -57,5 +63,29 @@
             </tfoot>
         </table>
 
+        <br><br><br><br>
+
+        <table>
+            <caption>Datos de la serie Ozark</caption>
+            <thead>
+                <tr>
+                    <th colspan="2">Nombre: Ozark</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Año de estreno: </td>
+                    <td rowspan="2">2017 y 300 millones de $$$</td>
+                </tr>
+                <tr>
+                    <td>Presupuesto</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="2">Tercera temporada pendiente de estreno</td>
+                </tr>
+            </tfoot>
+        </table>
     </body>
 </html>
