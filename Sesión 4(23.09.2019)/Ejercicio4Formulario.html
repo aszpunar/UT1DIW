@@ -22,5 +22,28 @@
             <input type="submit" value="Enviar Datos">
         </fieldset>
     </form>
+
+    <h2>Formulario sencillo 2</h2>
+    <form name="formulario2" id="formulario2id" method="" action="">
+        <fieldset>
+            <legend>Formulario básico con label</legend>
+            <label for="idCampo3" id="etiqueta1">Introduce el nombre de usuario</label>
+            <input type="text" name="campoTexto3" id="idCampo3">
+            <br>
+            <br>
+            <label for="idCampoD" id="etiqueta2">Selecciona S.O</label>
+            <input list="listaSSOO" id=idCampoD>
+            <datalist id="listaSSOO">
+                <option value="Windows 10 H2 2019">Windows 10 H2 2019</option>
+                <option value="Ubuntu 20.04">Ubuntu 20.04</option>
+                <option value="Debian 10.0 Buster">Debian 10.0 Buster</option>
+            </datalist>
+            <h3>Elementos de tipo boton</h3>
+            <input type="button" onclick="alert('Hola')" value="Saludar">
+            <input type="reset" value="Resetear formulario">
+        </fieldset>
+    </form>
+    <br>
+    <button id="boton1" onclick="window.alert('Hola me has presionado')">Click</button>
 </body>
 </html>
