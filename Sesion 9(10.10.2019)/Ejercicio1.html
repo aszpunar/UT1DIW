@@ -15,5 +15,47 @@
     <h1>Resto de elementos HTML5</h1>
     <h2>Elementos div: es un elemento de bloque</h2>
     <div>Se utiliza para estructurar el contenido de la página web</div>
+
+
+
+
+
+    <h2>Elementos audio</h2>
+    <audio id="audio1" controls>
+        <source src="audio.mp3" type="audio/mpeg">
+        <source src="audio.wav" type="audio/wav">
+        <source src="audio.ogg" type="audio/ogg">
+            Tu navegador no soporta audio html5
+    </audio>
+
+
+
+
+
+
+
+    <h2>Elementos de tipo progress</h2>
+    <progress max="100" value="33"></progress>
+
+
+
+
+
+    <h2>Elementos de tipo canvas</h2>
+    <canvas id="canvas1" width="300" height="150" style="border: 2px solid coral;">
+        Tu navegador no soporta el elemento canvas
+        <script type="text/javascript">
+            var canvas=document.getElementById("canvas1");
+            var contexto=canvas.getContext("2d");
+            contexto.fillStyle="#FF0000";
+            contexto.fillRect(75,30,150,75);
+        </script>
+    </canvas>
+
+
+
+
+
+
 </body>
 </html>
